@@ -29,7 +29,7 @@ body {
   font-size: 20px;
 }
 .bannarButton {
-    font-size: 20px;
+  font-size: 20px;
   width: 200px;
   height: 70px;
   background-color: rgb(80, 205, 255);
@@ -42,65 +42,62 @@ body {
 
 .donateSection {
   text-align: center;
-   
-  
 }
 .donationSection_heading {
-    font-size: 45px;
-    color: rgb(10, 9, 9);
+  font-size: 45px;
+  color: rgb(10, 9, 9);
 }
 .donationSevtion_P {
-    line-height: 30px;
-    color: rgb(53, 50, 50);
-    font-size: 20px;
+  line-height: 30px;
+  color: rgb(53, 50, 50);
+  font-size: 20px;
 }
 
 .donation_amount {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-   
-}
-.amount_button{
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    border: none;
-    border-radius: 9px;
-}
-#coloerd_Donaton_Button{
-    color: blueviolet;
-    border: 1px solid rgb(80, 205, 255) !important;
-}
-.input_donate_div{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.amount_input{
-    text-align: center;
-    width: 500px;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid blueviolet;
+.amount_button {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: none;
+  border-radius: 9px;
+}
+#coloerd_Donaton_Button {
+  color: blueviolet;
+  border: 1px solid rgb(80, 205, 255) !important;
+}
+.input_donate_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.amount_input {
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid blueviolet;
 }
 .textarea {
   text-align: center;
   margin-bottom: 80px;
 }
-.plane_heading{
+.plane_heading {
   font-size: 45px;
-    color: rgb(10, 9, 9);
+  color: rgb(10, 9, 9);
 }
-.hr{
+.hr {
   width: 700px;
-  
+
   height: 5px;
 }
 .plane_P {
@@ -108,8 +105,7 @@ body {
   color: rgb(97, 96, 96);
 }
 
-
-.cardArea{
+.cardArea {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,4 +128,70 @@ body {
 }
 #third_card {
   background-color: rgb(250, 250, 214);
+}
+.my_update_section {
+  margin-top: 150px;
+  text-align: center;
+}
+.updateheading {
+  font-size: 45px;
+  color: rgb(10, 9, 9);
+}
+.updateP {
+  font-size: 17px;
+  color: rgb(65, 63, 63);
+  margin-bottom: 5px;
+}
+
+.my_update_section {
+  text-align: center;
+}
+.updateInputField {
+  height: 170px;
+  width: 900px;
+  background-color: #d3c8c8;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.inputItems {
+  margin: auto;
+}
+
+.updateInput {
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  border: none;
+  border: 1px solid rgb(203, 156, 247);
+  border-radius: 8px;
+}
+.updateButton {
+  height: 50px;
+  color: white;
+  background-color: rgb(132, 105, 158);
+  border: none;
+  width: 90px;
+  border-radius: 9px;
+}
+
+.footer {
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: #191329;
+  text-align: center;
+  position: absolute;
+}
+.footerItem {
+  margin-top: 60px;
+  position: relative;
+}
+.footerH1 {
+  color: #ff5959;
+  margin: auto;
+}
+.footerP {
+  color: wheat;
 }
