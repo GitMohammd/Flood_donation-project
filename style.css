@@ -31,10 +31,45 @@ body {
 .bannarButton {
   width: 200px;
   height: 70px;
-  background-color: coral;
+  background-color: rgb(80, 205, 255);
   text-decoration: none;
-  color: rgb(17, 16, 15);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 7px;
   cursor: pointer;
+}
+
+.donateSection {
+  text-align: center;
+   
+  
+}
+.donationSection_heading {
+    font-size: 45px;
+    color: rgb(10, 9, 9);
+}
+.donationSevtion_P {
+    line-height: 30px;
+    color: rgb(53, 50, 50);
+    font-size: 20px;
+}
+
+.donation_amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.amount_button{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.coloerd_Donaton_Button{
+    
 }
